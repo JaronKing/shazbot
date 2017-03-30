@@ -8,7 +8,7 @@
  * @author Luciano Mammino <lucianomammino@gmail.com>
  */
 
-var TrainBot = require('../lib/trainbot');
+var ShazBot = require('../lib/shazbot');
 
 /**
  * Environment variables used to configure the bot:
@@ -19,13 +19,11 @@ var TrainBot = require('../lib/trainbot');
  *  BOT_NAME: the username you want to give to the bot within your organisation.
  */
 var token = process.env.BOT_API_KEY || require('../token');
-var dbPath = process.env.BOT_DB_PATH;
 var name = process.env.BOT_NAME;
 
-var trainbot = new TrainBot({
+var shazbot = new ShazBot({
     token: token,
-    dbPath: dbPath,
     name: name
 });
 
-trainbot.run();
+shazbot.run();

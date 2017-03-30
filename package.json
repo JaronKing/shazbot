@@ -1,7 +1,7 @@
 {
   "name": "trainbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Train Bot",
   "keywords": [
     "Slack",
     "bot",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/austin43/trainbot"
+    "url": "git+https://github.com/austin43/trainbot.git"
   },
   "bugs": {
     "url": "https://github.com/austin43/trainbot/issues"
@@ -20,12 +20,9 @@
   },
   "scripts": {
     "start": "node bin/bot.js",
-    "test": "node_modules/.bin/xo bin/bot.js lib/trainbot.js"
+    "test": "xo bin/bot.js lib/trainbot.js"
   },
-  "author": {
-    "name": "People",
-    "email": "test@test.com"
-  },
+  "author": "People <test@test.com>",
   "license": "MIT",
   "engines": {
     "node": ">=0.10.0"
@@ -35,7 +32,7 @@
     "progress": "^1.1.8",
     "request": "^2.60.0",
     "slackbots": "^0.3.0",
-    "sqlite3": "^3.0.10"
+    "sqlite3": "^3.1.8"
   },
   "devDependencies": {
     "xo": "^0.5.2"
@@ -50,5 +47,6 @@
         }
       ]
     }
-  }
+  },
+  "homepage": "https://github.com/austin43/trainbot#readme"
 }
