@@ -2,12 +2,6 @@
 
 'use strict';
 
-/**
- * NorrisBot launcher script.
- *
- * @author Luciano Mammino <lucianomammino@gmail.com>
- */
-
 var ShazBot = require('../lib/shazbot');
 
 /**
