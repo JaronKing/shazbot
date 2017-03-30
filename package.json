@@ -1,7 +1,7 @@
 {
-  "name": "trainbot",
+  "name": "shazbot",
   "version": "1.0.0",
-  "description": "Train Bot",
+  "description": "Shazbot",
   "keywords": [
     "Slack",
     "bot",
@@ -9,18 +9,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/austin43/trainbot.git"
+    "url": "git+https://github.com/JaronKing/shazbot.git"
   },
   "bugs": {
-    "url": "https://github.com/austin43/trainbot/issues"
+    "url": "https://github.com/JaronKing/shazbot/issues"
   },
-  "main": "lib/trainbot.js",
+  "main": "lib/shazbot.js",
   "bin": {
-    "austin43": "bin/bot.js"
+    "Jaronking": "bin/bot.js"
   },
   "scripts": {
     "start": "node bin/bot.js",
-    "test": "xo bin/bot.js lib/trainbot.js"
+    "test": "xo bin/bot.js lib/shazbot.js"
   },
   "author": "People <test@test.com>",
   "license": "MIT",
